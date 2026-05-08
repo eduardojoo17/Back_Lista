@@ -1,0 +1,11 @@
+--instalar as configs do programa -- lembrando de seguir o DOCS do typeorm
+com a mudança abaixo --
+"noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+
+E seguir a seguinte ordem:
+
+.env
+.gitignore
+-criar data-source e entity juntos,
+-criar index -- ai executa
