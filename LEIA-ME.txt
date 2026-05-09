@@ -9,3 +9,6 @@ E seguir a seguinte ordem:
 .gitignore
 -criar data-source e entity juntos,
 -criar index -- ai executa
+-service
+-controller
+- routes e junta com index
