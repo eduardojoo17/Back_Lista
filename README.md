@@ -4,6 +4,6 @@
 
 ### usando: 
 - Ambiente de execução: Node
-- Framework: Expressa
+- Framework: Express
 - ORM: TypeOrm
 - BD: Postgres 
