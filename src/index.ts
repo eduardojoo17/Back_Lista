@@ -1,8 +1,10 @@
 import express, { type Application } from "express";
 import { AppDataSource } from "./data-source.js";
+import { listaRoutes } from "./routes/listaRoutes.js";
 
 const app: Application = express();
 app.use(express.json());
+app.use("/api/lista",listaRoutes)
 
 AppDataSource.initialize()
   .then(() => {
