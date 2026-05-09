@@ -3,6 +3,7 @@
 ## o programa cria uma lista de compras, onde pode se adicionar e listar produtos
 
 ### usando: 
-- Framework: Node.js
+- Ambiente de execução: Node
+- Framework: Expressa
 - ORM: TypeOrm
 - BD: Postgres 
